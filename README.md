@@ -1,2 +1,2 @@
-# Word-Counter
+# Text-Info
 work in progress
