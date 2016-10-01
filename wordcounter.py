@@ -5,13 +5,10 @@ Last updated: September 30th, 2016
 
 import sys
 from tkinter import *
-import PyPDF2
+
 
 def wordcounter(filename, text):
-	if filename[0].endswith('.txt'):
-		textcounter(filename, text)
-#elif filename[0].endswith('.pdf'):
-#pdfcounter(filename, text)
+	textcounter(filename, text)
 
 def textcounter(filename, text):
 	count = {}
